@@ -37,10 +37,14 @@ function AddEmployee() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-
+            // API endpoint
+            const response = await axios.post('http://localhost:8080/employe', employee);
+            if (response.status === 200 || response.status === 201) {
+                alert('Employee added successfully!');
+                navigate('/employeDash'); // Redirect to items page
+            }
         }
         catch (error) {
-            
         }
     };
 
