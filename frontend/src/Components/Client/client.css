@@ -1,0 +1,62 @@
+.auth_conntainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+  height: 100vh;
+}
+.auth_sub {
+  background-image: url(./img/client.jpg);
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+  height: 100vh;
+}
+.lft_sub {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.from_topic {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+label {
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 3px 10px;
+  margin: 5px 0 10px 0;
+}
+
+textarea {
+  resize: none;
+}
+input:focus {
+  outline: 0;
+}
+.from_set {
+  width: 450px;
+}
+.from_btn {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px 0;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-transform: capitalize;
+}
