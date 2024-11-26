@@ -1,0 +1,23 @@
+.auth_sub_inv {
+  background-image: url(./img/inventory.jpg);
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+  height: 100vh;
+}
+.serch_continer {
+  width: 350px;
+  margin-left: auto;
+}
+.main_bar {
+  width: 100%;
+ padding: 0 10% 0 0;
+ margin-top: 15px;
+}
+.low_qty{
+  font-weight: 500;
+  color: red;
+}
