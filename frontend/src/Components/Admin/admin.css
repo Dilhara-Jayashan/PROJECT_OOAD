@@ -1,0 +1,112 @@
+.auth_sub_admin {
+  background-image: url(./img/admin.jpg);
+  width: 100%;
+  flex: 1;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  padding: 25px;
+  height: 100vh;
+}
+
+.table_main_set {
+  padding: 20px 10%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th{
+  font-weight: 500;
+  text-transform: uppercase;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+.nav_bar{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: end;
+  padding: 10px 10%;
+}
+.nav_items{
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+.active_nav{
+  text-decoration: underline;
+}
+.topic_main{
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+.genarate_report{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-left: auto;
+  background-color: black;
+  border: 0;
+  border-radius: 5px;
+  padding: 3px 15px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+}
+.delet_btn{
+  background-color: red;
+  cursor: pointer;
+  color: white;
+  border: 0;
+  border-radius: 2px;
+  padding:3px 8px;
+  cursor: pointer;
+}
+.notfound{
+  text-align: center;
+  margin: 25px 0;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+.topic_main_from{
+  font-size: 30px;
+  text-align: center;
+  margin: 15px 0;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.from_full{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid #222121;
+  padding: 25px;
+  width: 600px;
+  margin: 0 auto 25px auto;
+  border-radius: 2px;
+
+}
